@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Infinity Industries Pvt. Ltd.</title>
+
+  <link rel="icon" type="image/png" href="images/logo.png">
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<header class="top-header">
+
+  <div class="header-container">
+
+    <!-- LEFT LOGO -->
+
+    <img
+      src="images/logo.png"
+      alt="Logo Left"
+      class="header-logo"
+    >
+
+    <!-- COMPANY NAME -->
+
+    <div class="company-title">
+
+      <h1>Infinity Industries Pvt. Ltd.</h1>
+
+      <p>
+        Comprehensive Provider of End-to-End Paper Solutions
+      </p>
+
+    </div>
+
+    <!-- RIGHT LOGO -->
+
+    <img
+      src="images/rpm.png"
+      alt="Logo Right"
+      class="header-logo"
+    >
+
+  </div>
+
+</header>
+
+<!-- NAVBAR -->
+
+<nav class="main-nav">
+
+  <ul>
+
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="products.html">Products</a></li>
+    <li><a href="infrastructure.html">Infrastructure</a></li>
+    <li><a href="career.html">Careers</a></li>
+    <li><a href="contact.html">Contact</a></li>
+
+  </ul>
+
+</nav>
+
+<!-- CAREERS PAGE -->
+
+<section class="page-section">
+
+  <div class="container">
+
+<div class="career-hero">
+
+  <span class="career-tag">
+    Join Our Growing Team
+  </span>
+
+  <h1 class="career-main-title">
+    Build Your Career With Infinity Industries
+  </h1>
+
+  <p class="career-hero-text">
+
+    Join a team driven by innovation, integrity,
+    and over 50+ years of industry excellence.
+
+  </p>
+
+</div>
+
+<div class="career-form-box" id="career-form">
+
+  <h2>
+    Start Your Journey With Us
+  </h2>
+
+
+      <form
+        action="career.php"
+        method="POST"
+        enctype="multipart/form-data"
+      >
+
+<input
+  type="text"
+  name="fullname"
+  id="fullname"
+  placeholder="Full Name"
+  required
+  pattern="[A-Za-z ]{3,50}"
+  title="Enter only alphabets and spaces."
+>
+
+<input
+  type="email"
+  name="email"
+  id="email"
+  placeholder="Email Address"
+  required
+  pattern="[a-z0-9._%+-]+@gmail\.com"
+  title="Enter a valid Gmail address (lowercase only)."
+>
+
+<input
+  type="tel"
+  name="phone"
+  id="phone"
+  placeholder="Mobile Number"
+  required
+  pattern="[6-9][0-9]{9}"
+  maxlength="10"
+  title="Enter a valid 10-digit mobile number."
+>
+
+<select name="position" required>
+
+  <option value="">
+    Position Applying For
+  </option>
+
+  <option>Sales Executive</option>
+  <option>Accounts Executive</option>
+  <option>Logistics Executive</option>
+
+</select>
+
+<input
+  type="text"
+  name="location"
+  id="location"
+  placeholder="Current Location"
+  required
+>
+
+<input
+  type="text"
+  name="location"
+  placeholder="Current Location"
+>
+
+<label class="file-label">
+  Upload Resume (PDF / DOC / DOCX)
+</label>
+
+<input
+  type="file"
+  name="resume"
+  accept=".pdf,.doc,.docx"
+  required
+>
+
+<textarea
+  name="message"
+  rows="5"
+  placeholder="Message (Optional)"
+></textarea>
+
+<button type="submit">
+  Submit Application
+</button>
+
+      </form>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+  <div class="container">
+
+    © 2026 Infinity Industries Pvt. Ltd.
+
+  </div>
+
+</footer>
+
+<!-- WHATSAPP BUTTON -->
+
+<a
+  href="https://wa.me/919920542288?text=Hello%20Infinity%20Industries,%20I%20would%20like%20to%20know%20more%20about%20your%20products."
+  class="whatsapp-float"
+  target="_blank"
+>
+
+  <img
+    src="https://cdn-icons-png.flaticon.com/512/733/733585.png"
+    alt="WhatsApp"
+  >
+
+</a>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
